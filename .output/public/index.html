@@ -1,0 +1,25 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nuxt Error</title>
+    <style>body,html{background:#fff;color:red;font-family:monospace;display:flex;justify-content:center;align-items:center;flex-direction:column;height:100%}.stack{padding-left:2em}.stack.internal{color:grey}</style>
+  </head>
+  <body>
+    <div>
+      <div>GET /</div><br>
+      <h1>TypeError: CompositionApi.getCurrentInstance is not a function</h1>
+      <pre><span class="stack">at getCurrentInstance (./node_modules/.cache/nuxt/dist/server/server.js:285:29)</span>
+<span class="stack">at useContext (./node_modules/.cache/nuxt/dist/server/server.js:529:14)</span>
+<span class="stack">at setup (./node_modules/.cache/nuxt/dist/server/pages/index.js:74:52)</span>
+<span class="stack internal">at ./node_modules/@vue/composition-api/dist/vue-composition-api.common.prod.js:15:9939</span>
+<span class="stack internal">at ./node_modules/@vue/composition-api/dist/vue-composition-api.common.prod.js:15:8899</span>
+<span class="stack internal">at Se (./node_modules/@vue/composition-api/dist/vue-composition-api.common.prod.js:15:7253)</span>
+<span class="stack internal">at ./node_modules/@vue/composition-api/dist/vue-composition-api.common.prod.js:15:8880</span>
+<span class="stack internal">at a.r.data (./node_modules/@vue/composition-api/dist/vue-composition-api.common.prod.js:15:9385)</span>
+<span class="stack internal">at ./node_modules/vue/dist/vue.runtime.common.prod.js:6:28667</span>
+<span class="stack internal">at ./node_modules/vue/dist/vue.runtime.common.prod.js:6:28727</span></pre>
+    </div>
+  </body>
+</html>
